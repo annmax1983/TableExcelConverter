@@ -3,7 +3,7 @@
 
 Une extension légère qui extrait les tableaux HTML de toute page web et les exporte en CSV.
 
-> Chromium · Manifest V3 · Permissions minimales · Fully Local
+> Chromium · Manifest V3 · Permissions minimales · Local Only
 
 ---
 

@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that extracts HTML tables from any webpage and exports them as CSV files with one click.
 
-> Chromium-based · Manifest V3 · Minimal Permissions · Fully Local
+> Chromium-based · Manifest V3 · Minimal Permissions · Local Only
 
 ---
 

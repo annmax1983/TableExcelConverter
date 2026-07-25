@@ -5,54 +5,397 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TableGrab - Support</title>
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:#1e1e2e;color:#cdd6f4;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
-    .card{background:#181825;border:1px solid #313244;border-radius:16px;max-width:600px;width:100%;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.3)}
-    .banner{background:linear-gradient(135deg,#1e1e2e,#313244);padding:40px 32px 32px;text-align:center}
-    .banner-icon{font-size:48px;margin-bottom:12px}
-    .banner h1{font-size:28px;margin-bottom:8px;background:linear-gradient(135deg,#4fc3f7,#a6e3a1);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-    .banner p{color:#a6adc8;font-size:14px}
-    .body{padding:28px 32px}
-    .body h2{font-size:16px;color:#a6e3a1;margin-bottom:14px}
-    .body ul{list-style:none;padding:0;margin-bottom:20px}
-    .body li{padding:6px 0;font-size:14px;color:#bac2de;border-bottom:1px solid #1e1e2e}
-    .body li:last-child{border-bottom:none}.body li::before{content:'✓ ';color:#a6e3a1}
-    .thank{margin-top:20px}.thank p{font-size:14px;color:#bac2de;line-height:1.7;margin-bottom:10px}
-    .heart{color:#f38ba8}
-    .cta{text-align:center;padding:20px 32px 28px;border-top:1px solid #313244}
-    .cta p{font-size:13px;color:#6c7086;margin-bottom:14px}
-    .support-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,#4fc3f7,#a6e3a1);color:#1e1e2e;border-radius:8px;font-size:15px;font-weight:600;text-decoration:none;transition:transform .15s,box-shadow .15s}
-    .support-btn:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(79,195,247,.3)}
-    .footer{padding:16px 32px;text-align:center;font-size:12px;color:#6c7086;border-top:1px solid #1e1e2e}
-    .footer a{color:#4fc3f7;text-decoration:none}.footer a:hover{text-decoration:underline}
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      max-width: 820px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* ── Header banner ── */
+    .banner {
+      background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+      padding: 36px 40px 32px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .banner-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      flex-shrink: 0;
+      backdrop-filter: blur(4px);
+    }
+    .banner-text h1 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .banner-text p {
+      font-size: 14px;
+      opacity: 0.85;
+      line-height: 1.5;
+    }
+
+    /* ── Body two-column ── */
+    .body {
+      display: flex;
+      gap: 0;
+    }
+
+    .col {
+      flex: 1;
+      padding: 28px 36px;
+    }
+    .col-left {
+      border-right: 1px solid #eee;
+    }
+
+    .col h2 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #16a34a;
+      margin-bottom: 14px;
+    }
+
+    .feature-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .feature-list li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #444;
+      padding-left: 22px;
+      position: relative;
+    }
+    .feature-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #16a34a;
+      opacity: 0.5;
+    }
+
+    .thank-text {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #555;
+    }
+    .thank-text p + p {
+      margin-top: 12px;
+    }
+    .thank-text .heart {
+      color: #e74c3c;
+    }
+
+    /* ── CTA ── */
+    .cta {
+      text-align: center;
+      padding: 28px 36px 36px;
+      border-top: 1px solid #eee;
+    }
+    .cta .disclaimer {
+      font-size: 12px;
+      color: #aaa;
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+    .cta p {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 16px;
+    }
+
+    .support-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 36px;
+      background: #72a4f2;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 8px rgba(114, 164, 242, 0.35);
+    }
+    .support-btn:hover {
+      background: #5b8ee0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(114, 164, 242, 0.4);
+    }
+    .support-btn:active {
+      transform: translateY(0);
+    }
+    .support-btn .btn-icon {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      text-align: center;
+      padding: 16px 36px 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+    .footer a {
+      color: #16a34a;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .banner { padding: 24px 20px; flex-direction: column; text-align: center; }
+      .body { flex-direction: column; }
+      .col-left { border-right: none; border-bottom: 1px solid #eee; }
+      .col { padding: 24px 20px; }
+      .cta { padding: 24px 20px 28px; }
+    }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="banner"><div class="banner-icon">📊</div><h1>TableGrab</h1><p data-i18n="tagline"></p></div>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="banner-icon">📊</div>
+      <div class="banner-text">
+        <h1>TableGrab</h1>
+        <p data-i18n="tagline"></p>
+      </div>
+    </div>
+
+    <!-- Body: two columns -->
     <div class="body">
-      <h2 data-i18n="ft"></h2><ul id="fl"></ul>
-      <h2 data-i18n="tt"></h2><div class="thank" id="tn"></div>
+      <!-- Left: features -->
+      <div class="col col-left">
+        <h2 data-i18n="featuresTitle"></h2>
+        <ul class="feature-list" id="featureList"></ul>
+      </div>
+
+      <!-- Right: thank you -->
+      <div class="col">
+        <h2 data-i18n="thankTitle"></h2>
+        <div class="thank-text" id="thankText"></div>
+      </div>
     </div>
+
+    <!-- CTA -->
     <div class="cta">
-      <p data-i18n="ch"></p>
-      <a class="support-btn" href="https://ko-fi.com/annmax?ref=tablegrab" target="_blank" rel="noopener"><img src="./assets/coffee.png" alt="" width="28" height="22" style="vertical-align:middle"> <span data-i18n="bt"></span></a>
+      <p class="disclaimer" data-i18n="disclaimer"></p>
+      <p data-i18n="ctaHint"></p>
+      <a class="support-btn" href="https://ko-fi.com/annmax?buyACoffee=true&ref=tablegrab" target="_blank" rel="noopener">
+        <svg class="btn-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+          <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+          <line x1="6" y1="1" x2="6" y2="4"/>
+          <line x1="10" y1="1" x2="10" y2="4"/>
+          <line x1="14" y1="1" x2="14" y2="4"/>
+        </svg>
+        <span data-i18n="btnText"></span>
+      </a>
     </div>
-    <div class="footer"><a href="https://github.com/annmax1983/TableGrab" target="_blank" rel="noopener">GitHub</a> · <a href="https://annmax1983.github.io/TableGrab/privacy-policy.html" target="_blank" rel="noopener" data-i18n="pp">Privacy Policy</a> · © 2026 TableGrab</div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="https://github.com/annmax1983/TableGrab" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="https://annmax1983.github.io/TableGrab/privacy-policy.html" target="_blank" rel="noopener" data-i18n="privacyPolicy">Privacy Policy</a>
+      &nbsp;·&nbsp; Copyright © 2026 TableGrab
+    </div>
   </div>
+
   <script>
-    const I18N={zh:{tagline:'一键提取网页表格 · 轻量 · 隐私',ft:'✨ 功能特色',fl:['自动识别页面所有HTML表格','支持合并单元格(rowspan/colspan)导出','单表/多表/全表批量导出为CSV','UTF-8 BOM编码修复中文乱码','表格高亮预览，鼠标悬停定位','极简UI，三权限，零上传'],tt:'💌 想对你说',tn:['感谢你使用 TableGrab。做这个工具是因为受够了网页表格复制错乱、格式丢失的问题。','当然，如果你愿意请我喝一杯咖啡 <span class="heart">☕</span>，我会非常开心。'],ch:'点击下方按钮，跳转到支持页面',bt:'支持作者',pp:'隐私条款'},
-      en:{tagline:'Extract Web Tables · Lightweight · Private',ft:'✨ Features',fl:['Auto-detect all HTML tables on page','Support merged cells (rowspan/colspan)','Single/multi/batch export as CSV','UTF-8 BOM fixes Chinese garbled','Table highlight on hover','Minimal UI,3 permissions, zero upload'],tt:'💌 A Note to You',tn:['Thank you for using TableGrab. I built this tool because I was tired of messy copy-paste from web tables.','If you\'d like to <span class="heart">☕</span> buy me a coffee, it would truly make my day.'],ch:'Click the button below to visit the support page',bt:'Support the Developer',pp:'Privacy Policy'},
-      es:{tagline:'Extraer Tablas Web · Ligero · Privado',ft:'✨ Características',fl:['Auto-detectar todas las tablas HTML','Soporte celdas combinadas','Exportación por lotes como CSV','UTF-8 BOM para caracteres','Resaltar tabla al pasar el ratón','UI mínima,3 permisos, sin subida'],tt:'💌 Unas palabras',tn:['Gracias por usar TableGrab. Si quieres invitarme a un <span class="heart">☕</span> café, me haría muy feliz.'],ch:'Haz clic en el botón de abajo',bt:'Apoya al desarrollador',pp:'Política de Privacidad'},
-      de:{tagline:'Web-Tabellen extrahieren · Leicht · Privat',ft:'✨ Funktionen',fl:['Alle HTML-Tabellen automatisch erkennen','Zusammengeführte Zellen unterstützen','Stapelexport als CSV','UTF-8 BOM für Zeichen','Tabelle bei Hover hervorheben','Minimales UI,3 Berechtigungen'],tt:'💌 Ein paar Worte',tn:['Vielen Dank, dass Sie TableGrab nutzen. Wenn Sie mir einen <span class="heart">☕</span> Kaffee ausgeben möchten, würde mich das freuen.'],ch:'Klicken Sie auf die Schaltfläche',bt:'Entwickler unterstützen',pp:'Datenschutzrichtlinie'},
-      ja:{tagline:'Webテーブル抽出 · 軽量 · プライベート',ft:'✨ 機能',fl:['ページの全HTMLテーブルを自動検出','結合セル対応','一括CSVエクスポート','UTF-8 BOM文字化け修正','ホバーでテーブルハイライト','最小UI、3権限、ゼロアップロード'],tt:'💌 ご利用ありがとうございます',tn:['TableGrabをご利用いただきありがとうございます。コーヒーを <span class="heart">☕</span> 一杯おごっていただけると嬉しいです。'],ch:'下のボタンをクリック',bt:'開発者を支援',pp:'プライバシーポリシー'},
-      fr:{tagline:'Extraire les Tableaux Web · Léger · Privé',ft:'✨ Fonctionnalités',fl:['Détection automatique de tous les tableaux','Cellules fusionnées prises en charge','Export par lot en CSV','UTF-8 BOM pour les caractères','Surbrillance au survol','UI minimale,3 permissions'],tt:'💌 Un petit mot',tn:['Merci d\'utiliser TableGrab. Si vous souhaitez m\'offrir un <span class="heart">☕</span> café, cela me ferait plaisir.'],ch:'Cliquez sur le bouton ci-dessous',bt:'Soutenir le développeur',pp:'Politique de Confidentialité'}
+    const I18N = {
+      zh: {
+        tagline: '一键提取网页表格 · 轻量 · 隐私 · 完全本地',
+        featuresTitle: '✨ 功能特色',
+        features: [
+          '自动识别页面所有 HTML 表格',
+          '支持合并单元格（rowspan / colspan）导出',
+          '单表 / 多表 / 全表批量导出为 CSV',
+          'UTF-8 BOM 编码修复中文乱码',
+          '表格高亮预览，鼠标悬停定位',
+          'Manifest V3 · 极简权限，无网络上传'
+        ],
+        thankTitle: '💌 想对你说',
+        thank: [
+          '感谢你使用 TableGrab。做这个工具是因为受够了网页表格复制错乱、格式丢失的问题。',
+          '如果它也帮到了你，那对我来说就是最好的回报。',
+          '如果你愿意请我喝一杯咖啡 <span class="heart">☕</span>，我会非常开心——这会让我更有动力继续打磨它。'
+        ],
+        disclaimer: 'Ko-fi 赞助为自愿行为，不影响任何功能使用。赞助与扩展功能无绑定关系，仅为用户自发支持。',
+        ctaHint: '点击下方按钮，跳转到 Ko-fi 支持页面',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: '隐私政策'
+      },
+      en: {
+        tagline: 'Extract Web Tables · Lightweight · Private · Fully Local',
+        featuresTitle: '✨ Features',
+        features: [
+          'Auto-detect all HTML tables on any page',
+          'Support merged cells (rowspan / colspan)',
+          'Single / multi / batch export as CSV',
+          'UTF-8 BOM fixes Chinese / CJK garbled text',
+          'Table highlight on hover for easy定位',
+          'Manifest V3 · Minimal permissions, zero upload'
+        ],
+        thankTitle: '💌 A Note to You',
+        thank: [
+          'Thank you for using TableGrab. I built this tool because I was tired of messy copy-paste from web tables.',
+          'If it helps you save time, that\'s already the best reward I could ask for.',
+          'If you\'d like to <span class="heart">☕</span> buy me a coffee, I\'d really appreciate it — it keeps me motivated to make TableGrab even better.'
+        ],
+        disclaimer: 'Ko-fi sponsorship is purely voluntary and does not affect any features. Sponsorship has no binding to extension functionality — it is solely user-initiated support.',
+        ctaHint: 'Click the button below to visit the Ko-fi support page',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: 'Privacy Policy'
+      },
+      ja: {
+        tagline: 'Webテーブル抽出 · 軽量 · プライベート · 完全ローカル',
+        featuresTitle: '✨ 機能紹介',
+        features: [
+          'ページの全HTMLテーブルを自動検出',
+          '結合セル（rowspan / colspan）対応',
+          '一括CSVエクスポート対応',
+          'UTF-8 BOMで文字化けを修正',
+          'ホバーでテーブルをハイライト表示',
+          'Manifest V3 · 最小権限、アップロードなし'
+        ],
+        thankTitle: '💌 ご利用ありがとうございます',
+        thank: [
+          'TableGrabをご利用いただきありがとうございます。このツールは、ウェブ表格のコピー＆ペーストが乱れる問題を解決するために作りました。',
+          '皆様のお役に立てているなら、それが何よりの喜びです。',
+          'もしよろしければ、コーヒーを <span class="heart">☕</span> 一杯おごっていただけると、とても嬉しいです。TableGrabの改善の励みになります。'
+        ],
+        disclaimer: 'Ko-fi は純粋な任意のスポンサー십です。機能に一切影響せず、スポンサー십と拡張機能は無関係です。ユーザーの自発的なサポートのみです。',
+        ctaHint: '下のボタンをクリックすると Ko-fi サポートページに移動します',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: 'プライバシーポリシー'
+      },
+      de: {
+        tagline: 'Web-Tabellen extrahieren · Leicht · Privat · Vollständig lokal',
+        featuresTitle: '✨ Funktionen',
+        features: [
+          'Alle HTML-Tabellen automatisch erkennen',
+          'Zusammengeführte Zellen (rowspan/colspan) unterstützen',
+          'Stapelexport als CSV',
+          'UTF-8 BOM behebt chinesische/CJK-Zeichen',
+          'Tabelle bei Hover hervorheben',
+          'Manifest V3 · Minimale Berechtigungen, kein Upload'
+        ],
+        thankTitle: '💌 Ein paar Worte an Sie',
+        thank: [
+          'Vielen Dank, dass Sie TableGrab nutzen. Ich habe dieses Tool gebaut, weil ich das Chaos beim Kopieren von Web-Tabellen leid war.',
+          'Wenn es auch Ihnen hilft Zeit zu sparen, ist das die beste Belohnung.',
+          'Wenn Sie mir gerne einen <span class="heart">☕</span> Kaffee ausgeben möchten, würde mich das sehr freuen — es motiviert mich, TableGrab noch besser zu machen.'
+        ],
+        disclaimer: 'Ko-fi-Sponsoring ist rein freiwillig und beeinträchtigt keine Funktionen. Das Sponsoring hat keinen Einfluss auf die Erweiterungsfunktionen — es ist ausschließlich eine freiwillige Unterstützung durch die Nutzer.',
+        ctaHint: 'Klicken Sie auf die Schaltfläche unten, um zur Ko-fi-Support-Seite zu gelangen',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: 'Datenschutzrichtlinie'
+      },
+      es: {
+        tagline: 'Extraer Tablas Web · Ligero · Privado · Completamente local',
+        featuresTitle: '✨ Características',
+        features: [
+          'Auto-detectar todas las tablas HTML en la página',
+          'Soporte de celdas combinadas (rowspan/colspan)',
+          'Exportación por lotes como CSV',
+          'UTF-8 BOM corrige caracteres CJK',
+          'Resaltar tabla al pasar el ratón',
+          'Manifest V3 · Permisos mínimos, sin subida'
+        ],
+        thankTitle: '💌 Unas palabras para ti',
+        thank: [
+          'Gracias por usar TableGrab. Construí esta herramienta porque estaba harto del desorden al copiar tablas web.',
+          'Si también te ayuda a ahorrar tiempo, esa ya es la mejor recompensa.',
+          'Si quieres invitarme a un <span class="heart">☕</span> café, me haría muy feliz — me motivaría a seguir mejorando TableGrab.'
+        ],
+        disclaimer: 'El patrocinio en Ko-fi es puramente voluntario y no afecta ninguna funcionalidad. El patrocinio no tiene vinculación con las funciones de la extensión — es únicamente apoyo iniciado por el usuario.',
+        ctaHint: 'Haz clic en el botón de abajo para visitar la página de soporte de Ko-fi',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: 'Política de Privacidad'
+      },
+      fr: {
+        tagline: 'Extraire les Tableaux Web · Léger · Privé · Entièrement local',
+        featuresTitle: '✨ Fonctionnalités',
+        features: [
+          'Détection automatique de tous les tableaux HTML',
+          'Cellules fusionnées (rowspan/colspan) prises en charge',
+          'Export par lot en CSV',
+          'UTF-8 BOM corrige les caractères CJK',
+          'Surbrillance des tableaux au survol',
+          'Manifest V3 · Permissions minimales, aucun upload'
+        ],
+        thankTitle: '💌 Un petit mot pour vous',
+        thank: [
+          'Merci d\'utiliser TableGrab. J\'ai construit cet outil parce que je suis fatigué du désordre lors de la copie de tableaux web.',
+          'S\'il vous aide à gagner du temps, c\'est déjà la plus belle récompense.',
+          'Si vous souhaitez m\'offrir un <span class="heart">☕</span> café, cela me ferait très plaisir — cela me motiverait à améliorer TableGrab encore davantage.'
+        ],
+        disclaimer: 'Le parrainage sur Ko-fi est purement volontaire et n\'affecte aucune fonctionnalité. Le parrainage n\'est lié à aucune fonctionnalité de l\'extension — il s\'agit uniquement d\'un soutien initié par l\'utilisateur.',
+        ctaHint: 'Cliquez sur le bouton ci-dessous pour accéder à la page de soutien Ko-fi',
+        btnText: 'Buy Me a Coffee',
+        privacyPolicy: 'Politique de Confidentialité'
+      }
     };
-    const code=(navigator.language||'en').split('-')[0].toLowerCase();const t=I18N[code]||I18N.en;
-    document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.getAttribute('data-i18n');if(t[k])el.textContent=t[k];});
-    document.getElementById('fl').innerHTML=t.fl.map(f=>`<li>${f}</li>`).join('');
-    document.getElementById('tn').innerHTML=t.tn.map(p=>`<p>${p}</p>`).join('');
-    document.documentElement.lang=code;
+
+    function detectLang() {
+      const raw = (navigator.language || 'en').toLowerCase();
+      const map = { 'zh-tw': 'zh', 'zh-hans': 'zh', 'zh-hant': 'zh', 'zh-cn': 'zh' };
+      const mapped = map[raw] || raw;
+      const base = mapped.split('-')[0];
+      return I18N[mapped] ? mapped : (I18N[base] ? base : 'en');
+    }
+
+    function applyLang(lang) {
+      const t = I18N[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key]) el.textContent = t[key];
+      });
+      document.getElementById('featureList').innerHTML = t.features.map(f => `<li>${f}</li>`).join('');
+      document.getElementById('thankText').innerHTML = t.thank.map(p => `<p>${p}</p>`).join('');
+      document.documentElement.lang = lang;
+    }
+
+    applyLang(detectLang());
   </script>
 </body>
 </html>
