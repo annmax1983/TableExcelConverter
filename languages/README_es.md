@@ -3,7 +3,7 @@
 
 Una extensión ligera que extrae tablas HTML de cualquier página web y las exporta como CSV con un clic.
 
-> Chromium · Manifest V3 · Permisos mínimos · Local Only
+> Chromium · Manifest V3 · Permisos mínimos · Privado
 
 ---
 
@@ -18,11 +18,13 @@ Una extensión ligera que extrae tablas HTML de cualquier página web y las expo
 | 📦 **Exportación por lotes** | Una tabla, seleccionadas o todas |
 | 🔤 **Sin caracteres** | UTF-8 BOM para caracteres CJK |
 | ⚡ **Un clic** | Descarga instantánea |
-| 🔒 **Privado** | Solo3 permisos, sin subida de datos |
+| 🔒 **Privado** | Permisos mínimos, los datos de tablas nunca se suben |
 
 ---
 
 ## Características
+
+### 🆓 Gratis
 
 - Auto-detección de tablas HTML
 - Soporte de celdas combinadas (rowspan/colspan)
@@ -30,6 +32,12 @@ Una extensión ligera que extrae tablas HTML de cualquier página web y las expo
 - UTF-8 BOM para corregir caracteres
 - Resaltar tabla al pasar el ratón
 - Nombre de archivo automático
+- 🔒 Hasta 5 tablas por página
+
+### ⭐ Premium (Licencia)
+
+- 📦 Exportaciones ilimitadas — sin límite de 5 tablas
+- Todas las funciones anteriores, sin restricciones
 
 ---
 
@@ -63,10 +71,23 @@ Una extensión ligera que extrae tablas HTML de cualquier página web y las expo
 
 ---
 
+## Precios
+
+| Plan | Precio | Contenido |
+|------|--------|----------|
+| 🆓 Gratis | $0 | Hasta 5 tablas por página |
+| ⭐ Herramienta individual | $2,99/mes o $9,99 de por vida | Exportaciones ilimitadas de TableGrab |
+| 🏆 Suite completa | $3,99/mes o $19,99 de por vida | Todas las extensiones VKT Premium |
+
+Detalles en [VKT Precios](https://www.annmax1983.com/pricing.html).
+
 ## Privacidad
 
-- ✅ Sin subida de datos · Sin analíticas · Sin solicitudes de red
-- ✅ Solo permisos `activeTab` + `scripting` + `downloads`
+- ✅ Nunca se suben datos de tablas ni contenido de páginas — el análisis y la exportación CSV ocurren localmente
+- ✅ Sin analíticas, sin seguimiento
+- ✅ Permisos: `activeTab` + `scripting` + `downloads` + `storage`, además de acceso al host del servidor oficial de licencias
+- ✅ `storage` solo para licencia y configuración
+- 🔑 La activación/validación de la licencia premium solo se conecta al servidor oficial de licencias (api.annmax1983.com) — nunca se transmiten datos de tablas
 
 ---
 

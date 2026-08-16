@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that extracts HTML tables from any webpage and exports them as CSV files with one click.
 
-> Chromium-based · Manifest V3 · Minimal Permissions · Local Only
+> Chromium-based · Manifest V3 · Minimal Permissions · Privacy-First
 
 ---
 
@@ -19,11 +19,13 @@ Ever tried to copy a table from a government website or data platform, only to g
 | 📦 **Batch Export** | Export single, selected, or all tables at once |
 | 🔤 **No Garbled** | UTF-8 BOM encoding fixes Chinese/CJK character issues |
 | ⚡ **One-Click** | Instant download, no page refresh needed |
-| 🔒 **Private** | Only3 permissions, zero data upload |
+| 🔒 **Private** | Minimal permissions, table data never uploaded |
 
 ---
 
 ## Features
+
+### 🆓 Free
 
 | Feature | Description |
 |---------|-------------|
@@ -36,6 +38,14 @@ Ever tried to copy a table from a government website or data platform, only to g
 | 🧹 **Whitespace Cleanup** | Removes extra newlines, spaces, HTML fragments from cells |
 | 💡 **Table Highlight** | Hover over table list to highlight corresponding table on page |
 | 📁 **Smart Naming** | Auto-generates filename: PageTitle_tables_timestamp.csv |
+| 🔒 **Up to 5 tables/page** | Free tier exports the first 5 tables detected on each page |
+
+### ⭐ Premium (License)
+
+| Feature | Description |
+|---------|-------------|
+| 📦 **Unlimited Exports** | No 5-table limit — export every table on any page |
+| 🔄 **All Free Features** | Everything above, no restrictions |
 
 ---
 
@@ -83,11 +93,23 @@ Ever tried to copy a table from a government website or data platform, only to g
 
 ---
 
+## Pricing
+
+| Plan | Price | Details |
+|------|-------|--------|
+| 🆓 Free | $0 | Up to 5 tables per page |
+| ⭐ Single Tool | $2.99/mo or $9.99 lifetime | Unlimited TableGrab exports |
+| 🏆 Full Suite | $3.99/mo or $19.99 lifetime | All VKT extensions premium |
+
+See [VKT Pricing](https://www.annmax1983.com/pricing.html) for details.
+
 ## Privacy
 
-- ✅ Zero data upload — all processing happens locally
-- ✅ No analytics, no tracking, no network requests
-- ✅ Only `activeTab` + `scripting` + `downloads` permissions
+- ✅ No table data or page content is ever uploaded — parsing and CSV export happen locally
+- ✅ No analytics, no tracking
+- ✅ Permissions: `activeTab` + `scripting` + `downloads` + `storage`, plus host access to the official license server
+- ✅ `storage` is used only for license key and settings — no browsing data
+- 🔑 Premium license activation/validation connects only to the official license server (api.annmax1983.com) — no table data is ever transmitted
 
 ---
 
@@ -99,7 +121,7 @@ This extension only reads HTML table structures already loaded on web pages and 
 
 ## ❤️ Support
 
-**[👉 Click here to support](https://annmax1983.github.io/TableGrab/)**
+**[👉 Ko-fi — Buy Me a Coffee](https://ko-fi.com/annmax?ref=tablegrab)**
 
 ---
 

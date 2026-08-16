@@ -3,7 +3,7 @@
 
 Eine leichtgewichtige Erweiterung, die HTML-Tabellen von jeder Webseite extrahiert und als CSV exportiert.
 
-> Chromium · Manifest V3 · Mindestberechtigungen · Vollständig Lokal
+> Chromium · Manifest V3 · Mindestberechtigungen · Datenschutzfreundlich
 
 ---
 
@@ -18,11 +18,13 @@ Haben Sie schon einmal eine Tabelle von einer Website kopiert und dabei das Form
 | 📦 **Stapelexport** | Einzelne, ausgewählte oder alle Tabellen |
 | 🔤 **Keine Zeichenfehler** | UTF-8 BOM für CJK-Zeichen |
 | ⚡ **Ein Klick** | Sofortiger Download |
-| 🔒 **Privat** | Nur3 Berechtigungen |
+| 🔒 **Privat** | Minimale Berechtigungen, keine Daten-Uploads |
 
 ---
 
 ## Funktionen
+
+### 🆓 Kostenlos
 
 - Automatische Tabellenerkennung
 - Zusammengeführte Zellen (rowspan/colspan)
@@ -30,6 +32,12 @@ Haben Sie schon einmal eine Tabelle von einer Website kopiert und dabei das Form
 - UTF-8 BOM Kodierung
 - Tabellen-Hervorhebung bei Hover
 - Automatische Dateinamen
+- 🔒 Bis zu 5 Tabellen pro Seite
+
+### ⭐ Premium (Lizenz)
+
+- 📦 Unbegrenzter Export — kein 5-Tabellen-Limit
+- Alle Funktionen oben, keine Einschränkungen
 
 ---
 
@@ -47,10 +55,23 @@ Haben Sie schon einmal eine Tabelle von einer Website kopiert und dabei das Form
 
 ---
 
+## Preise
+
+| Plan | Preis | Inhalt |
+|------|-------|--------|
+| 🆓 Kostenlos | $0 | Bis zu 5 Tabellen pro Seite |
+| ⭐ Einzelwerkzeug | $2,99/Mo oder $9,99 einmalig | Unbegrenzter TableGrab-Export |
+| 🏆 Komplettpaket | $3,99/Mo oder $19,99 einmalig | Alle VKT-Erweiterungen Premium |
+
+Details unter [VKT Preise](https://www.annmax1983.com/pricing.html).
+
 ## Datenschutz
 
-- ✅ Keine Datenübertragung · Keine Analytik · Keine Netzwerkanfragen
-- ✅ Nur `activeTab` + `scripting` + `downloads` Berechtigungen
+- ✅ Es werden keine Tabellendaten oder Seiteninhalte hochgeladen — Verarbeitung und CSV-Export erfolgen lokal
+- ✅ Keine Analytik, kein Tracking
+- ✅ Berechtigungen: `activeTab` + `scripting` + `downloads` + `storage` sowie Host-Zugriff auf den offiziellen Lizenzserver
+- ✅ `storage` nur für Lizenz und Einstellungen
+- 🔑 Aktivierung/Validierung der Premium-Lizenz verbindet nur den offiziellen Lizenzserver (api.annmax1983.com) — Tabellendaten werden nie übertragen
 
 ---
 

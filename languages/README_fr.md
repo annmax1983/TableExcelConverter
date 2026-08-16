@@ -3,7 +3,7 @@
 
 Une extension légère qui extrait les tableaux HTML de toute page web et les exporte en CSV.
 
-> Chromium · Manifest V3 · Permissions minimales · Local Only
+> Chromium · Manifest V3 · Permissions minimales · Respect de la vie privée
 
 ---
 
@@ -18,11 +18,13 @@ Avez-vous déjà essayé de copier un tableau d'un site web et obtenu un format 
 | 📦 **Export par lot** | Un tableau, sélectionnés ou tous |
 | 🔤 **Pas de caractères** | UTF-8 BOM pour les caractères CJK |
 | ⚡ **Un clic** | Téléchargement instantané |
-| 🔒 **Privé** | Seulement3 permissions |
+| 🔒 **Privé** | Permissions minimales, données de tableaux jamais téléversées |
 
 ---
 
 ## Fonctionnalités
+
+### 🆓 Gratuit
 
 - Détection automatique des tableaux HTML
 - Cellules fusionnées (rowspan/colspan)
@@ -30,6 +32,12 @@ Avez-vous déjà essayé de copier un tableau d'un site web et obtenu un format 
 - Encodage UTF-8 BOM
 - Surbrillance au survol
 - Nom de fichier automatique
+- 🔒 Jusqu'à 5 tableaux par page
+
+### ⭐ Premium (Licence)
+
+- 📦 Exports illimités — pas de limite de 5 tableaux
+- Toutes les fonctionnalités ci-dessus, sans restrictions
 
 ---
 
@@ -47,10 +55,23 @@ Avez-vous déjà essayé de copier un tableau d'un site web et obtenu un format 
 
 ---
 
+## Tarifs
+
+| Plan | Prix | Contenu |
+|------|------|--------|
+| 🆓 Gratuit | $0 | Jusqu'à 5 tableaux par page |
+| ⭐ Outil unique | 2,99$/mois ou 9,99$ à vie | Exports TableGrab illimités |
+| 🏆 Suite complète | 3,99$/mois ou 19,99$ à vie | Toutes les extensions VKT Premium |
+
+Détails sur [VKT Tarifs](https://www.annmax1983.com/pricing.html).
+
 ## Confidentialité
 
-- ✅ Zéro upload · Pas d'analytics · Pas de requêtes réseau
-- ✅ Seulement `activeTab` + `scripting` + `downloads`
+- ✅ Aucune donnée de tableau ni contenu de page téléversé — analyse et export CSV en local
+- ✅ Pas d'analytics, pas de tracking
+- ✅ Permissions : `activeTab` + `scripting` + `downloads` + `storage`, plus accès hôte au serveur de licences officiel
+- ✅ `storage` uniquement pour la licence et les paramètres
+- 🔑 L'activation/validation de la licence premium ne connecte que le serveur de licences officiel (api.annmax1983.com) — aucune donnée de tableau n'est transmise
 
 ---
 
