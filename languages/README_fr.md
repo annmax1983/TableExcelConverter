@@ -75,6 +75,13 @@ Détails sur [VKT Tarifs](https://www.annmax1983.com/pricing.html).
 
 ---
 
+---
+
+## Avis sur le code source
+
+> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de mise à jour et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source pour les utilisateurs finaux n'est fourni.
+
+
 ## Avis de droit d'auteur
 
 Cette extension ne fait que lire les structures de tableaux HTML déjà chargées sur les pages web et les convertir au format CSV pour téléchargement local.

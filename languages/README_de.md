@@ -75,6 +75,13 @@ Details unter [VKT Preise](https://www.annmax1983.com/pricing.html).
 
 ---
 
+---
+
+## Hinweis zum Quellcode
+
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Quellcodes für Endbenutzer bereitgestellt.
+
+
 ## Urheberrechtlicher Haftungsausschluss
 
 Diese Erweiterung liest nur HTML-Tabellenstrukturen, die bereits auf Webseiten geladen sind, und konvertiert sie in CSV-Format für den lokalen Download. Alle Tabellendaten und Webseiteninhalte unterliegen dem Urheberrecht der ursprünglichen Website.
