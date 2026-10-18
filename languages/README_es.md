@@ -99,7 +99,7 @@ Una extensión ligera para el navegador que extrae tablas HTML de cualquier pág
 |------|-------|--------|
 | 🆓 Gratis | $0 | Hasta 5 tablas por página |
 | ⭐ Herramienta individual | $2.99/mes o $9.99 de por vida | Exportaciones ilimitadas de TableGrab |
-| 🏆 Suite completa | $3.99/mes o $19.99 de por vida | Todas las extensiones VKT premium |
+| 🏆 Suite completa | $4.99/mes o $29.99 de por vida | Todas las extensiones VKT premium |
 
 Consulta [VKT Pricing](https://www.annmax1983.com/pricing.html) para más detalles.
 
