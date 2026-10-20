@@ -2,7 +2,7 @@
 
 [English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
 
-Une extension légère qui extrait les tableaux HTML de n'importe quelle page web et les exporte en fichiers CSV en un clic.
+Une extension légère qui extrait les tableaux HTML natifs et les grilles de données ARIA/div de n'importe quelle page web, et les exporte en fichiers CSV ou Excel (XLSX) en un clic.
 
 > Chromium · Manifest V3 · Permissions minimales · Confidentialité avant tout
 
@@ -10,12 +10,16 @@ Une extension légère qui extrait les tableaux HTML de n'importe quelle page we
 
 ## Pourquoi TableGrab ?
 
-Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou une plateforme de données, pour obtenir une mise en forme brouillée ? TableGrab lit directement la structure HTML du tableau et exporte des données CSV propres — pas d'erreur de copier-coller, pas de perte de format.
+Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou une plateforme de données, pour obtenir une mise en forme brouillée ? TableGrab lit directement la structure du tableau et exporte des données CSV ou XLSX propres — pas d'erreur de copier-coller, pas de perte de format.
 
 | Avantage | Détail |
 |-----------|--------|
-| 📊 **Détection automatique** | Scanne tous les tableaux HTML de la page, affiche le nombre de lignes × colonnes |
+| 📊 **Détection automatique** | Scanne tous les tableaux natifs et grilles ARIA/div (role=grid/treegrid/table) de la page, affiche lignes × colonnes |
+| 📗 **Export Excel** | Vraies cellules fusionnées, en-têtes stylés/figés, largeurs automatiques, une feuille par tableau |
 | 🔗 **Cellules fusionnées** | Gère correctement rowspan/colspan, préserve la structure du tableau |
+| 🧱 **Grilles div** | Lit les grilles MUI DataGrid / AG Grid et fusionne les colonnes figées dupliquées |
+| 👁️ **Aperçu et colonnes** | Inspectez le tableau avant l'export et décochez les colonnes inutiles |
+| 📋 **Copier en TSV / Markdown** | Collez directement dans Excel, Notion, GitHub ou une messagerie |
 | 📦 **Export par lot** | Exportez un tableau unique, une sélection, ou tous les tableaux d'un coup |
 | 🔤 **Pas de caractères corrompus** | L'encodage UTF-8 BOM corrige les problèmes de caractères chinois/CJK |
 | ⚡ **Un clic** | Téléchargement instantané, aucun rafraîchissement de page nécessaire |
@@ -29,15 +33,19 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 
 | Fonctionnalité | Description |
 |---------|-------------|
-| 📊 **Détection automatique des tableaux** | Trouve tous les tableaux HTML valides, filtre les tableaux cachés/de mise en page |
+| 📊 **Détection automatique des tableaux** | Trouve les tableaux natifs et grilles ARIA/div valides, filtre les tableaux cachés/de mise en page |
+| 📗 **Export XLSX** | Classeur multi-feuilles, vraies cellules fusionnées, en-tête figé, largeurs automatiques |
 | 🔗 **Support des cellules fusionnées** | Analyse rowspan/colspan, reconstruit la grille correctement |
-| 📋 **Export unique** | Exportez un tableau au format CSV |
+| 🧱 **Grilles ARIA / div** | Lit les structures role=grid/treegrid/table (dont MUI et AG Grid) et fusionne les colonnes figées dupliquées |
+| 👁️ **Aperçu avant export** | Aperçu défilant (jusqu'à 50 lignes) avec cases à cocher par colonne |
+| ☑️ **Choix des colonnes** | Exportez uniquement les colonnes choisies ; la sélection est mémorisée par tableau |
+| 📋 **Copier TSV / Markdown** | Un clic pour Excel, Notion, GitHub ou une messagerie, selon le réglage d'espaces |
 | ✅ **Sélection multiple** | Cochez plusieurs tableaux, exportez la sélection ensemble |
 | 📦 **Export par lot** | Exportez tous les tableaux de la page en un clic |
 | 🔤 **UTF-8 BOM** | Correction d'encodage activée par défaut pour les caractères chinois/CJK |
 | 🧹 **Nettoyage des espaces** | Supprime les sauts de ligne, espaces et fragments HTML superflus des cellules |
 | 💡 **Surbrillance des tableaux** | Survolez la liste des tableaux pour mettre en surbrillance le tableau correspondant sur la page |
-| 📁 **Nommage intelligent** | Génère automatiquement le nom de fichier : TitreDeLaPage_tables_horodatage.csv |
+| 📁 **Nommage intelligent** | Génère automatiquement le nom de fichier : TitreDeLaPage_tables_horodatage.csv / .xlsx |
 | 🔒 **5 tableaux/page max** | Le niveau gratuit exporte les 5 premiers tableaux détectés sur chaque page |
 
 ### ⭐ Premium (Licence)
@@ -76,20 +84,22 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 
 ## Utilisation
 
-1. Visitez une page contenant des tableaux HTML
+1. Visitez une page contenant des tableaux ou des grilles de données ARIA/div
 2. Cliquez sur l'icône **TableGrab**
 3. Les tableaux sont détectés automatiquement et listés avec les infos lignes × colonnes
-4. Survolez pour mettre en surbrillance, cochez pour sélectionner
-5. Cliquez sur **Tout exporter** ou **Exporter la sélection**
-6. Le fichier CSV se télécharge automatiquement
+4. Survolez pour mettre en surbrillance, cochez pour sélectionner ; utilisez **Aperçu** pour choisir les colonnes
+5. Cliquez sur **Tout exporter**, **Exporter la sélection** ou **Copier en TSV / Markdown**
+6. Le fichier CSV ou XLSX se télécharge automatiquement
 
 ---
 
 ## Limitations connues
 
-- Seuls les éléments HTML `<table>` sont supportés — tableaux image, tableaux Canvas, tableaux JS virtuels non supportés
+- Les grilles div sont prises en charge lorsqu'elles exposent des rôles ARIA (`grid`/`treegrid`/`table` avec rôles de ligne/cellule), comme MUI DataGrid et AG Grid. Les grilles rendues en Canvas ou sans structure accessible de lignes/cellules ne peuvent pas être lues
+- Les tableaux paginés ou à défilement virtuel n'exportent que les lignes et colonnes présentes dans le DOM
 - Les tableaux dans des iframes cross-origin ne sont pas accessibles (restriction de sécurité du navigateur)
 - Les tableaux dynamiques complexes ou chiffrés peuvent ne pas être analysés correctement
+- Les cellules de plus de 32 767 caractères sont tronquées pour respecter la limite d'Excel
 
 ---
 
@@ -105,7 +115,7 @@ Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour plus de dét
 
 ## Confidentialité
 
-- ✅ Aucune donnée de tableau ni contenu de page n'est jamais envoyé — l'analyse et l'export CSV se font en local
+- ✅ Aucune donnée de tableau ni contenu de page n'est jamais envoyé — l'analyse et l'export CSV/XLSX se font en local
 - ✅ Pas d'analytics, pas de suivi
 - ✅ Permissions : `activeTab` + `scripting` + `downloads` + `storage`, plus l'accès au serveur de licences officiel
 - ✅ `storage` est utilisé uniquement pour la clé de licence et les paramètres — aucune donnée de navigation
@@ -115,7 +125,7 @@ Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour plus de dét
 
 ## Avertissement relatif au droit d'auteur
 
-Cette extension lit uniquement les structures de tableaux HTML déjà chargées sur les pages web et les convertit au format CSV pour un téléchargement local. Tous les droits d'auteur des données de tableaux et du contenu des pages web appartiennent aux sites originaux. Les utilisateurs ne doivent pas utiliser les données exportées à des fins de reproduction commerciale, de redistribution non autorisée ou de toute autre activité portant atteinte au droit d'auteur. Toute responsabilité juridique découlant d'une utilisation inappropriée incombe exclusivement à l'utilisateur.
+Cette extension lit uniquement les structures de tableaux déjà chargées sur les pages web et les convertit au format CSV ou XLSX pour un téléchargement local. Tous les droits d'auteur des données de tableaux et du contenu des pages web appartiennent aux sites originaux. Les utilisateurs ne doivent pas utiliser les données exportées à des fins de reproduction commerciale, de redistribution non autorisée ou de toute autre activité portant atteinte au droit d'auteur. Toute responsabilité juridique découlant d'une utilisation inappropriée incombe exclusivement à l'utilisateur.
 
 ---
 
