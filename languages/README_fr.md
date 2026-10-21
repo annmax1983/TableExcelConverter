@@ -105,13 +105,9 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 
 ## Tarifs
 
-| Plan | Prix | Détails |
-|------|-------|--------|
-| 🆓 Gratuit | 0 $ | Jusqu'à 5 tableaux par page |
-| ⭐ Outil individuel | 2,99 $/mois ou 9,99 $ à vie | Exports TableGrab illimités |
-| 🏆 Suite complète | 4,99 $/mois ou 29,99 $ à vie | Toutes les extensions VKT en Premium |
+Le plan gratuit exporte jusqu'à 5 tableaux par page. Une licence outil individuel supprime cette limite d'export et la suite complète couvre les fonctions Premium de toutes les extensions VKT.
 
-Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour plus de détails.
+Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour les options de licence et les prix.
 
 ## Confidentialité
 

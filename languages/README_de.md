@@ -105,13 +105,9 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 
 ## Preise
 
-| Plan | Preis | Details |
-|------|-------|---------|
-| 🆓 Kostenlos | $0 | Bis zu 5 Tabellen pro Seite |
-| ⭐ Einzellizenz | $2.99/Monat oder $9.99 lebenslang | Unbegrenzte TableGrab-Exporte |
-| 🏆 Komplettpaket | $4.99/Monat oder $29.99 lebenslang | Alle VKT-Erweiterungen Premium |
+Die kostenlose Version exportiert bis zu 5 Tabellen pro Seite. Eine Einzellizenz hebt dieses Exportlimit auf, das Komplettpaket deckt die Premium-Funktionen aller VKT-Erweiterungen ab.
 
-Siehe [VKT Preise](https://www.annmax1983.com/pricing.html) für Details.
+Details zu Lizenzoptionen und Preisen: [VKT Preise](https://www.annmax1983.com/pricing.html).
 
 ## Datenschutz
 

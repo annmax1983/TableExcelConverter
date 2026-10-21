@@ -107,13 +107,9 @@ Ever tried to copy a table from a government website or data platform, only to g
 
 ## Pricing
 
-| Plan | Price | Details |
-|------|-------|--------|
-| 🆓 Free | $0 | Up to 5 tables per page |
-| ⭐ Single Tool | $2.99/mo or $9.99 lifetime | Unlimited TableGrab exports |
-| 🏆 Full Suite | $4.99/mo or $29.99 lifetime | All VKT extensions premium |
+The free tier exports up to 5 tables per page. A single-tool license removes that export limit, and the full suite covers the premium features of all VKT extensions.
 
-See [VKT Pricing](https://www.annmax1983.com/pricing.html) for details.
+See [VKT Pricing](https://www.annmax1983.com/pricing.html) for license options and prices.
 
 ## Privacy
 
