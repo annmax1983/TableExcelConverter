@@ -59,7 +59,7 @@
 ## 预览
 
 <p align="center">
-  <img src="icons/icon128.png" alt="TableGrab Icon" width="80">
+  <img src="../icons/icon128.png" alt="TableGrab Icon" width="80">
 </p>
 
 ---
@@ -73,11 +73,14 @@
 
 ---
 
-## 安装方法
+## 安装
 
-1. 打开 `chrome://extensions/` 或 `edge://extensions/`
-2. 开启**开发者模式**
-3. 点击**加载已解压的扩展程序**，选择项目文件夹
+| 商店 | 链接 |
+|---|---|
+| Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
+| Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+
+> 请只通过上方官方商店安装，避免使用第三方下载站。
 
 ---
 

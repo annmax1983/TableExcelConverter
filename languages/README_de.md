@@ -60,7 +60,7 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 ## Vorschau
 
 <p align="center">
-  <img src="icons/icon128.png" alt="TableGrab Symbol" width="80">
+  <img src="../icons/icon128.png" alt="TableGrab Symbol" width="80">
 </p>
 
 ---
@@ -76,9 +76,12 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 
 ## Installation
 
-1. Öffne `chrome://extensions/` oder `edge://extensions/`
-2. Aktiviere den **Entwicklermodus**
-3. Klicke auf **Entpackte Erweiterung laden** und wähle den Projektordner
+| Store | Link |
+|---|---|
+| Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
+| Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+
+> Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
 ---
 

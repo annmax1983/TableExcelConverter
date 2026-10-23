@@ -78,9 +78,12 @@ Ever tried to copy a table from a government website or data platform, only to g
 
 ## Installation
 
-1. Open `chrome://extensions/` or `edge://extensions/`
-2. Enable **Developer mode**
-3. Click **Load unpacked** and select the project folder
+| Store | Link |
+|---|---|
+| Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
+| Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+
+> Install only from the official stores above — avoid third-party download sites.
 
 ---
 

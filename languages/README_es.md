@@ -60,7 +60,7 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 ## Vista previa
 
 <p align="center">
-  <img src="icons/icon128.png" alt="Icono de TableGrab" width="80">
+  <img src="../icons/icon128.png" alt="Icono de TableGrab" width="80">
 </p>
 
 ---
@@ -76,9 +76,12 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 
 ## Instalación
 
-1. Abre `chrome://extensions/` o `edge://extensions/`
-2. Activa el **modo de desarrollador**
-3. Haz clic en **Cargar descomprimida** y selecciona la carpeta del proyecto
+| Tienda | Enlace |
+|---|---|
+| Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
+| Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+
+> Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
 ---
 

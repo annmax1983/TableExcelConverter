@@ -60,7 +60,7 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 ## Aperçu
 
 <p align="center">
-  <img src="icons/icon128.png" alt="Icône TableGrab" width="80">
+  <img src="../icons/icon128.png" alt="Icône TableGrab" width="80">
 </p>
 
 ---
@@ -76,9 +76,12 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 
 ## Installation
 
-1. Ouvrez `chrome://extensions/` ou `edge://extensions/`
-2. Activez le **mode Développeur**
-3. Cliquez sur **Charger le package décompressé** et sélectionnez le dossier du projet
+| Store | Lien |
+|---|---|
+| Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
+| Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+
+> Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
 ---
 
