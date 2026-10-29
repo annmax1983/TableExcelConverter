@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that extracts native HTML tables and ARIA/div data grids from any webpage and exports them as CSV or Excel (XLSX) files with one click.
 
-> Chromium-based · Manifest V3 · Minimal Permissions · Privacy-First
+> Chrome · Edge · Firefox · Manifest V3 · Minimal Permissions · Privacy-First
 
 ---
 
@@ -69,10 +69,13 @@ Ever tried to copy a table from a government website or data platform, only to g
 
 ## Supported Browsers
 
-| Browser | Status |
-|---------|--------|
-| Google Chrome | ✅ Fully supported |
-| Microsoft Edge | ✅ Fully supported |
+| Browser | Status | Notes |
+|---------|--------|-------|
+| Google Chrome | ✅ Fully supported | Manifest V3 |
+| Microsoft Edge | ✅ Fully supported | Manifest V3 |
+| Mozilla Firefox | ✅ Fully supported | Manifest V3, Firefox 140+ (desktop) |
+
+> **Firefox note:** table detection, preview, column selection, TSV / Markdown copy, CSV and XLSX export all work the same way. Firefox asks for `activeTab`, `scripting`, `downloads`, `storage` and access to the licence host only — identical to the Chrome and Edge builds.
 
 ---
 
@@ -82,6 +85,7 @@ Ever tried to copy a table from a government website or data platform, only to g
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
 
 > Install only from the official stores above — avoid third-party download sites.
 

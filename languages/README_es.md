@@ -4,7 +4,7 @@
 
 Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrículas de datos ARIA/div de cualquier página web, y las exporta como archivos CSV o Excel (XLSX) con un solo clic.
 
-> Basada en Chromium · Manifest V3 · Permisos mínimos · Privacidad ante todo
+> Chrome / Edge / Firefox · Manifest V3 · Permisos mínimos · Privacidad ante todo
 
 ---
 
@@ -71,6 +71,9 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 |---------|--------|
 | Google Chrome | ✅ Totalmente compatible |
 | Microsoft Edge | ✅ Totalmente compatible |
+| Mozilla Firefox | ✅ Totalmente compatible |
+
+> **Nota sobre Firefox:** El resto de funciones se comporta igual que en Chrome / Edge.
 
 ---
 
@@ -80,6 +83,7 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 |---|---|
 | Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+| Complementos de Firefox (AMO) | 🔜 En revisión: el enlace se añadirá al publicarse |
 
 > Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 

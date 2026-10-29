@@ -3,7 +3,7 @@
 
 一款轻量级浏览器扩展，一键提取网页原生 HTML 表格与 ARIA/div 数据网格，导出为 CSV 或 Excel（XLSX）文件。
 
-> Chromium 内核 · Manifest V3 · 最小权限 · 本地处理
+> Chrome / Edge / Firefox 内核 · Manifest V3 · 最小权限 · 本地处理
 
 ---
 
@@ -70,6 +70,9 @@
 |--------|------|
 | Google Chrome | ✅ 完全支持 |
 | Microsoft Edge | ✅ 完全支持 |
+| Mozilla Firefox | ✅ 完全支持 |
+
+> **Firefox 说明：** 其余功能与 Chrome / Edge 一致。
 
 ---
 
@@ -79,6 +82,7 @@
 |---|---|
 | Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+| Firefox 附加组件（AMO） | 🔜 审核中，上架后补充链接 |
 
 > 请只通过上方官方商店安装，避免使用第三方下载站。
 
@@ -123,7 +127,7 @@
 
 ## 源码说明
 
-> ⚠️ **此处不发布源码。** 本仓库仅提供使用说明、更新日志和留言支持服务。扩展程序仅通过 Chrome Web Store 分发，不提供离线安装包或终端用户源代码。
+> ⚠️ **此处不发布源码。** 本仓库仅提供使用说明、更新日志和留言支持服务。扩展程序仅通过 Chrome Web Store、Microsoft Edge Add-ons 与 Firefox 附加组件（AMO） 分发，不提供离线安装包或终端用户源代码。
 
 ---
 

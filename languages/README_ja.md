@@ -4,7 +4,7 @@
 
 任意のWebページからネイティブHTMLテーブルとARIA/divデータグリッドを抽出し、ワンクリックでCSVまたはExcel（XLSX）ファイルとしてエクスポートできる軽量ブラウザ拡張機能です。
 
-> Chromium系ブラウザ対応 · Manifest V3 · 最小限の権限 · プライバシー最優先
+> Chrome / Edge / Firefox · Manifest V3 · 最小限の権限 · プライバシー最優先
 
 ---
 
@@ -71,6 +71,9 @@
 |---------|--------|
 | Google Chrome | ✅ 完全対応 |
 | Microsoft Edge | ✅ 完全対応 |
+| Mozilla Firefox | ✅ 完全対応 |
+
+> **Firefox について：** その他の機能は Chrome / Edge と同じです。
 
 ---
 
@@ -80,6 +83,7 @@
 |---|---|
 | Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+| Firefox アドオン（AMO） | 🔜 審査中 — 公開後にリンクを追加します |
 
 > 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 

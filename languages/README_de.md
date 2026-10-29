@@ -4,7 +4,7 @@
 
 Eine schlanke Browser-Erweiterung, die native HTML-Tabellen und ARIA/Div-Datengrids von jeder Webseite extrahiert und sie mit einem Klick als CSV- oder Excel-Dateien (XLSX) exportiert.
 
-> Chromium-basiert · Manifest V3 · Minimale Berechtigungen · Datenschutz zuerst
+> Chrome / Edge / Firefox · Manifest V3 · Minimale Berechtigungen · Datenschutz zuerst
 
 ---
 
@@ -71,6 +71,9 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 |---------|--------|
 | Google Chrome | ✅ Vollständig unterstützt |
 | Microsoft Edge | ✅ Vollständig unterstützt |
+| Mozilla Firefox | ✅ Vollständig unterstützt |
+
+> **Firefox-Hinweis:** Die übrigen Funktionen verhalten sich wie unter Chrome / Edge.
 
 ---
 
@@ -80,6 +83,7 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 |---|---|
 | Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
+| Firefox-Add-ons (AMO) | 🔜 In Prüfung – Link folgt nach der Freigabe |
 
 > Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
