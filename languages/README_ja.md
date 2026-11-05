@@ -83,7 +83,7 @@
 |---|---|
 | Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
-| Firefox アドオン（AMO） | 🔜 審査中 — 公開後にリンクを追加します |
+| Firefox アドオン（AMO） | [Firefox 版をインストール](https://addons.mozilla.org/firefox/addon/tablegrab-table-to-excel/) |
 
 > 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 
@@ -135,3 +135,12 @@
 ## ❤️ サポート
 
 **[👉 Ko-fi — Buy Me a Coffee](https://ko-fi.com/annmax?ref=tablegrab)**
+
+---
+
+## リンク
+
+- **公式サイト:** https://annmax1983.com/
+- **この拡張機能:** https://annmax1983.com/extensions/tablegrab
+- **プライバシーポリシー:** https://annmax1983.com/privacy
+- **お問い合わせ:** support@annmax1983.com

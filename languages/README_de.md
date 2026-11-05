@@ -83,7 +83,7 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 |---|---|
 | Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
-| Firefox-Add-ons (AMO) | 🔜 In Prüfung – Link folgt nach der Freigabe |
+| Firefox-Add-ons (AMO) | [Für Firefox installieren](https://addons.mozilla.org/firefox/addon/tablegrab-table-to-excel/) |
 
 > Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
@@ -139,3 +139,12 @@ Diese Erweiterung liest nur Tabellenstrukturen, die bereits auf Webseiten gelade
 ---
 
 > **Hinweis:** Dieses Repository dient ausschließlich der **Projektpräsentation**. Der vollständige Quellcode wird hier **nicht** veröffentlicht.
+
+---
+
+## Links
+
+- **Offizielle Website:** https://annmax1983.com/
+- **Diese Erweiterung:** https://annmax1983.com/extensions/tablegrab
+- **Datenschutz:** https://annmax1983.com/privacy
+- **Kontakt:** support@annmax1983.com

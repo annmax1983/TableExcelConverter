@@ -83,7 +83,7 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 |---|---|
 | Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
-| Complementos de Firefox (AMO) | 🔜 En revisión: el enlace se añadirá al publicarse |
+| Complementos de Firefox (AMO) | [Instalar para Firefox](https://addons.mozilla.org/firefox/addon/tablegrab-table-to-excel/) |
 
 > Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
@@ -135,3 +135,12 @@ Esta extensión solo lee las estructuras de tablas ya cargadas en las páginas w
 ## ❤️ Apoyo
 
 **[👉 Ko-fi — Invítame a un café](https://ko-fi.com/annmax?ref=tablegrab)**
+
+---
+
+## Enlaces
+
+- **Sitio oficial:** https://annmax1983.com/
+- **Esta extensión:** https://annmax1983.com/extensions/tablegrab
+- **Privacidad:** https://annmax1983.com/privacy
+- **Contacto:** support@annmax1983.com

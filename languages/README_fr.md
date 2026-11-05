@@ -83,7 +83,7 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 |---|---|
 | Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
-| Modules complémentaires Firefox (AMO) | 🔜 En cours d’examen — le lien sera ajouté après publication |
+| Modules complémentaires Firefox (AMO) | [Installer pour Firefox](https://addons.mozilla.org/firefox/addon/tablegrab-table-to-excel/) |
 
 > Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
@@ -139,3 +139,12 @@ Cette extension lit uniquement les structures de tableaux déjà chargées sur l
 ---
 
 > **Note :** Ce dépôt est destiné à la **présentation du projet uniquement**. Le code source complet ne sera **pas** publié ici.
+
+---
+
+## Liens
+
+- **Site officiel:** https://annmax1983.com/
+- **Cette extension:** https://annmax1983.com/extensions/tablegrab
+- **Confidentialité:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com

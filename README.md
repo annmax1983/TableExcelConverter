@@ -85,7 +85,7 @@ Ever tried to copy a table from a government website or data platform, only to g
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/mekelpcokmdjgoiikpedhojmjappfeji) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/lhoelnklgfdihllglpjkpbinfkejceah) |
-| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
+| Firefox Add-ons (AMO) | [Install for Firefox](https://addons.mozilla.org/firefox/addon/tablegrab-table-to-excel/) |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -141,3 +141,13 @@ This extension only reads table structures already loaded on web pages and conve
 ---
 
 > **Note:** This repository is for **project showcase purposes only**. Full source code will **not** be published here.
+
+---
+
+## Links
+
+- **Official website:** https://annmax1983.com/
+- **This extension:** https://annmax1983.com/extensions/tablegrab
+- **Privacy policy:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
+- **☕ Support this project (Ko-fi):** https://ko-fi.com/annmax?ref=tablegrab
