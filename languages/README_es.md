@@ -138,6 +138,22 @@ Esta extensión solo lee las estructuras de tablas ya cargadas en las páginas w
 
 ---
 
+## Aviso sobre el código fuente
+
+> ⚠️ **Este repositorio es solo para presentar el proyecto: el código fuente completo no se publica aquí.** Solo contiene la documentación de uso, las notas de versión y la información de soporte de la extensión.
+
+> 📥 **Descárgala e instálala únicamente desde las tiendas oficiales de navegadores:** Chrome Web Store · Microsoft Edge Add-ons · Complementos de Firefox (AMO). Desde aquí no se distribuye ningún instalador sin conexión.
+
+---
+
+## Licencia
+
+Copyright © 2026 TableGrab. All rights reserved.
+
+Este software es propietario y de código cerrado. Sin autorización previa por escrito del autor, queda estrictamente prohibido descompilar, aplicar ingeniería inversa, crackear, modificar, reempaquetar, redistribuir o revender el programa (total o parcialmente).
+
+---
+
 ## Enlaces
 
 - **Sitio oficial:** https://annmax1983.com/

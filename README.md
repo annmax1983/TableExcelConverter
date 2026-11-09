@@ -134,13 +134,25 @@ This extension only reads table structures already loaded on web pages and conve
 
 ---
 
-## ❤️ Support
+## Source Code Notice
 
-**[👉 Ko-fi — Buy Me a Coffee](https://ko-fi.com/annmax?ref=tablegrab)**
+> ⚠️ **This repository is for project showcase only — the full source code is not published here.** It contains the user documentation, release notes and support information for the extension.
+
+> 📥 **Download and install only from the official browser stores:** Chrome Web Store · Microsoft Edge Add-ons · Firefox Add-ons (AMO). No offline installation package is distributed from this repository.
 
 ---
 
-> **Note:** This repository is for **project showcase purposes only**. Full source code will **not** be published here.
+## License
+
+Copyright © 2026 TableGrab. All rights reserved.
+
+This software is proprietary and closed-source. Without prior written authorization from the author, decompiling, reverse-engineering, cracking, modifying, repackaging, redistributing or reselling the program (in whole or in part) is strictly prohibited.
+
+---
+
+## ❤️ Support
+
+**[👉 Ko-fi — Buy Me a Coffee](https://ko-fi.com/annmax?ref=tablegrab)**
 
 ---
 

@@ -132,13 +132,25 @@ Diese Erweiterung liest nur Tabellenstrukturen, die bereits auf Webseiten gelade
 
 ---
 
-## ❤️ Support
+## Hinweis zum Quellcode
 
-**[👉 Ko-fi — Kauf mir einen Kaffee](https://ko-fi.com/annmax?ref=tablegrab)**
+> ⚠️ **Dieses Repository dient ausschließlich der Projektpräsentation — der vollständige Quellcode wird hier nicht veröffentlicht.** Es enthält nur die Nutzungsdokumentation, die Release-Notizen und Support-Informationen zur Erweiterung.
+
+> 📥 **Installation ausschließlich über die offiziellen Browser-Stores:** Chrome Web Store · Microsoft Edge Add-ons · Firefox-Add-ons (AMO). Von hier werden keine Offline-Installer verteilt.
 
 ---
 
-> **Hinweis:** Dieses Repository dient ausschließlich der **Projektpräsentation**. Der vollständige Quellcode wird hier **nicht** veröffentlicht.
+## Lizenz
+
+Copyright © 2026 TableGrab. All rights reserved.
+
+Diese Software ist proprietär und quellgeschlossen. Ohne vorherige schriftliche Genehmigung des Autors ist das Dekompilieren, Reverse-Engineering, Knacken, Verändern, Neuverpacken, Weiterverbreiten oder Weiterverkaufen der Software (ganz oder teilweise) streng untersagt.
+
+---
+
+## ❤️ Support
+
+**[👉 Ko-fi — Kauf mir einen Kaffee](https://ko-fi.com/annmax?ref=tablegrab)**
 
 ---
 
