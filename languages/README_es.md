@@ -48,7 +48,7 @@ Una extensión ligera para el navegador que extrae tablas HTML nativas y cuadrí
 | 📁 **Nomenclatura inteligente** | Genera automáticamente el nombre del archivo: TituloPagina_tables_marcatiempo.csv / .xlsx |
 | 🔒 **Hasta 5 tablas/página** | El nivel gratuito exporta las primeras 5 tablas detectadas en cada página |
 
-### ⭐ Premium (Licencia)
+### ⭐ Pro (Licencia)
 
 | Funcionalidad | Descripción |
 |---------|-------------|
@@ -122,7 +122,7 @@ Consulta [VKT Pricing](https://www.annmax1983.com/pricing.html) para las opcione
 - ✅ Sin analíticas, sin rastreo
 - ✅ Permisos: `activeTab` + `scripting` + `downloads` + `storage`, más acceso de host al servidor de licencias oficial
 - ✅ `storage` se usa solo para la clave de licencia y la configuración — sin datos de navegación
-- 🔑 La activación/validación de la licencia Premium se conecta únicamente al servidor de licencias oficial (api.annmax1983.com) — nunca se transmiten datos de tablas
+- 🔑 La activación/validación de la licencia Pro se conecta únicamente al servidor de licencias oficial (api.annmax1983.com) — nunca se transmiten datos de tablas
 
 ---
 

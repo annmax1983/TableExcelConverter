@@ -48,7 +48,7 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 | 📁 **Intelligente Benennung** | Dateiname wird automatisch generiert: Seitentitel_tabellen_zeitstempel.csv / .xlsx |
 | 🔒 **Bis zu 5 Tabellen/Seite** | Kostenlose Stufe exportiert die ersten 5 erkannten Tabellen pro Seite |
 
-### ⭐ Premium (Lizenz)
+### ⭐ Pro (Lizenz)
 
 | Funktion | Beschreibung |
 |----------|--------------|
@@ -112,7 +112,7 @@ Schon mal versucht, eine Tabelle von einer Behörden-Website oder Datenplattform
 
 ## Preise
 
-Die kostenlose Version exportiert bis zu 5 Tabellen pro Seite. Eine Einzellizenz hebt dieses Exportlimit auf, das Komplettpaket deckt die Premium-Funktionen aller VKT-Erweiterungen ab.
+Die kostenlose Version exportiert bis zu 5 Tabellen pro Seite. Eine Einzellizenz hebt dieses Exportlimit auf, das Komplettpaket deckt die Pro-Funktionen aller VKT-Erweiterungen ab.
 
 Details zu Lizenzoptionen und Preisen: [VKT Preise](https://www.annmax1983.com/pricing.html).
 
@@ -122,7 +122,7 @@ Details zu Lizenzoptionen und Preisen: [VKT Preise](https://www.annmax1983.com/p
 - ✅ Keine Analytik, kein Tracking
 - ✅ Berechtigungen: `activeTab` + `scripting` + `downloads` + `storage`, plus Host-Zugriff auf den offiziellen Lizenzserver
 - ✅ `storage` wird nur für Lizenzschlüssel und Einstellungen verwendet — keine Browserdaten
-- 🔑 Premium-Lizenzaktivierung/-validierung verbindet sich nur mit dem offiziellen Lizenzserver (api.annmax1983.com) — es werden nie Tabellendaten übertragen
+- 🔑 Pro-Lizenzaktivierung/-validierung verbindet sich nur mit dem offiziellen Lizenzserver (api.annmax1983.com) — es werden nie Tabellendaten übertragen
 
 ---
 

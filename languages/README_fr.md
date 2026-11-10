@@ -48,7 +48,7 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 | 📁 **Nommage intelligent** | Génère automatiquement le nom de fichier : TitreDeLaPage_tables_horodatage.csv / .xlsx |
 | 🔒 **5 tableaux/page max** | Le niveau gratuit exporte les 5 premiers tableaux détectés sur chaque page |
 
-### ⭐ Premium (Licence)
+### ⭐ Pro (Licence)
 
 | Fonctionnalité | Description |
 |---------|-------------|
@@ -112,7 +112,7 @@ Vous avez déjà essayé de copier un tableau depuis un site gouvernemental ou u
 
 ## Tarifs
 
-Le plan gratuit exporte jusqu'à 5 tableaux par page. Une licence outil individuel supprime cette limite d'export et la suite complète couvre les fonctions Premium de toutes les extensions VKT.
+Le plan gratuit exporte jusqu'à 5 tableaux par page. Une licence outil individuel supprime cette limite d'export et la suite complète couvre les fonctions Pro de toutes les extensions VKT.
 
 Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour les options de licence et les prix.
 
@@ -122,7 +122,7 @@ Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour les options 
 - ✅ Pas d'analytics, pas de suivi
 - ✅ Permissions : `activeTab` + `scripting` + `downloads` + `storage`, plus l'accès au serveur de licences officiel
 - ✅ `storage` est utilisé uniquement pour la clé de licence et les paramètres — aucune donnée de navigation
-- 🔑 L'activation/validation de la licence Premium se connecte uniquement au serveur de licences officiel (api.annmax1983.com) — aucune donnée de tableau n'est transmise
+- 🔑 L'activation/validation de la licence Pro se connecte uniquement au serveur de licences officiel (api.annmax1983.com) — aucune donnée de tableau n'est transmise
 
 ---
 

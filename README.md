@@ -50,7 +50,7 @@ Ever tried to copy a table from a government website or data platform, only to g
 | 📁 **Smart Naming** | Auto-generates filename: PageTitle_tables_timestamp.csv / .xlsx |
 | 🔒 **Up to 5 tables/page** | Free tier exports the first 5 tables detected on each page |
 
-### ⭐ Premium (License)
+### ⭐ Pro (License)
 
 | Feature | Description |
 |---------|-------------|
@@ -124,7 +124,7 @@ See [VKT Pricing](https://www.annmax1983.com/pricing.html) for license options a
 - ✅ No analytics, no tracking
 - ✅ Permissions: `activeTab` + `scripting` + `downloads` + `storage`, plus host access to the official license server
 - ✅ `storage` is used only for license key and settings — no browsing data
-- 🔑 Premium license activation/validation connects only to the official license server (api.annmax1983.com) — no table data is ever transmitted
+- 🔑 Pro license activation/validation connects only to the official license server (api.annmax1983.com) — no table data is ever transmitted
 
 ---
 
